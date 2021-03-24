@@ -7,5 +7,5 @@ yum install salt-minion -y
 
 # Config Salt
 echo "lab-$(hostname)" > /etc/salt/minion_id
-echo "192.168.0.111 salt" >> /etc/hosts
+echo "192.168.0.150 salt" >> /etc/hosts
 systemctl restart salt-minion
